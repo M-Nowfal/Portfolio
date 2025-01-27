@@ -13,7 +13,7 @@ function Hero() {
                 <div className="row align-items-center text-center">
                     <div className="col-12 col-md-6 mb-4 mt-3" data-aos="fade-right">
                         <img 
-                            src="src\\assets\\Nowfal.png" 
+                            src="Nowfal.png" 
                             alt="Muhammed Nowfal" 
                             className="img-fluid hero-image"
                         />
