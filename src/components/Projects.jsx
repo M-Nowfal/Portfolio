@@ -43,7 +43,7 @@ function Projects() {
         <section>
             <h1 id="projects" className="mt-5 pt-5"></h1>
             <h1 className="text-center m-5 projects-title" data-aos="fade-right">My Projects</h1>
-            <div className="container-fluid">
+            <div className="container">
                 {projects.map((projectsInfo) => (
                     <div className={projectsInfo.allignment} data-aos={projectsInfo.fade} key={projectsInfo.key}>
                         <div className="col-sm-12 col-md-6">
