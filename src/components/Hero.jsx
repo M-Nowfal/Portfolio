@@ -18,7 +18,7 @@ function Hero() {
                             className="img-fluid hero-image"
                         />
                     </div>
-                    <div className="col-12 col-md-6 mt-3" data-aos="fade-left">
+                    <div className="col-12 col-md-6 mt-5" data-aos="fade-left">
                         <h1 className="m-2 name"><span className="text-white">I'm </span>Muhammed Nowfal</h1>
                         <h3 className="m-2 roll"><span className="roll-in">I'm a </span>
                             <Typewriter
