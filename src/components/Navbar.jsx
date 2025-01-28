@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -10,6 +10,9 @@ function Navbar() {
             duration: 1000,
         });
     }, []);
+    const bars = "fa-solid fa-bars-staggered toggle-icon";
+    const xmark = "fa-solid fa-xmark toggle-icon";
+    const [toggler, setToggler] = useState(bars);
 
     return (
         <div>
@@ -25,7 +28,7 @@ function Navbar() {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <i className="fa-solid fa-bars-staggered bar-icon"></i>
+                        <i className={toggler} onClick={()=>setToggler((toggler===xmark)?bars:xmark)}></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav mx-auto titles">

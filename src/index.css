@@ -58,7 +58,7 @@ html, body{
 .title-name:hover{
   color: #ff7b00 !important;
 }
-.name, .bar-icon, .roll .roll-in{
+.name, .toggle-icon, .roll .roll-in{
   color: #ff7b00;
 }
 .roll{
@@ -78,11 +78,10 @@ html, body{
   color: #ff7b00;
 }
 .project-cards {
-  backdrop-filter: blur(5px); 
-  background-color: rgba(0, 0, 0, 0);
-  box-shadow: 0px 0px 10px white;
+  backdrop-filter: blur(2.5px); 
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 7px white;
   border: solid 1px rgb(73, 73, 73);
-  color: #ffffff;
 }
 .project-cards {
     transition: transform 0.3s ease-in-out, opacity         0.3s ease-in-out;
@@ -118,7 +117,7 @@ html, body{
   color: white;
 }
 .inputs{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   padding: 7px;
   margin: 5px;
   color: aliceblue;
