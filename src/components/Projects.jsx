@@ -44,14 +44,14 @@ function Projects() {
                 {projects.map((project) => (
                     <div
                         className={`row ${project.allignment}`}
-{/*                         data-aos={project.fade} */}
+                        data-aos={project.fade}
                         key={project.project_name}
                     >
                         <div className="col-sm-12 col-md-6">
                             <div className="card project-cards text-center my-3">
                                 <div className="card-body">
                                     <h4 className="card-title projects-title">{project.project_name}</h4>
-                                    <p className="card-text text-secondary d-inline-block">
+                                    <p className="card-text text-secondary">
                                         {project.project_description1}
                                     </p>
                                     <a
