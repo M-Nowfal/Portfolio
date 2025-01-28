@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { memo } from "react";
 
-function Skills() {
+const Skills = memo(() => {
 
     const skills = [
         {
@@ -98,7 +98,7 @@ function Skills() {
     return (
         <section>
             <h1 id="skills" className="mt-5 pt-5"></h1>
-            <h3 className="text-center m-5 skills-title" data-aos="fade-left">My Skills</h3>
+            <h2 className="text-center m-5 skills-title fs-1" data-aos="fade-left">My Skills</h2>
             <div className="container">
                 <div className="row text-center">
                     {skills.map((info)=>{
@@ -113,6 +113,6 @@ function Skills() {
             </div>
         </section>
     )
-}
+});
 
-export default Skills
+export default Skills;

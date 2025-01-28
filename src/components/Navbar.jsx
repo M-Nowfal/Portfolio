@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React, { memo, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
-function Navbar() {
+AOS.init({
+    duration: 1000, 
+    easing: "ease-in-out", 
+    once: false, 
+    offset: 100,
+});
 
-    useEffect(() => {
-        AOS.init({
-            duration: 1000,
-        });
-    }, []);
+const Navbar = memo(() => {
+
     const bars = "fa-solid fa-bars-staggered toggle-icon";
     const xmark = "fa-solid fa-xmark toggle-icon";
     const [toggler, setToggler] = useState(bars);
@@ -60,6 +61,6 @@ function Navbar() {
             </nav>
         </div>
     );
-}
+});
 
 export default Navbar;

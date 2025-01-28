@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Typewriter from "typewriter-effect";
 
-function Hero() {
+const Hero = memo(() => {
 
     function downloadResume() {
         window.location.href = "https://nowfal86.neocities.org/Nowfal-Portfolio/Nowfal.pdf";
@@ -43,6 +43,6 @@ function Hero() {
             </div>
         </section>
     );
-}
+});
 
 export default Hero;

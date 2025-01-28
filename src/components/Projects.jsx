@@ -1,6 +1,6 @@
-import React from "react";
+import React, { memo } from "react";
 
-function Projects() {
+const Projects = memo(() => {
     const projects = [
         {
             project_name: "Calculator",
@@ -63,6 +63,6 @@ function Projects() {
             </div>
         </section>
     );
-}
+});
 
 export default Projects;
