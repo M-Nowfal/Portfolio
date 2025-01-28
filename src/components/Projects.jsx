@@ -44,7 +44,7 @@ function Projects() {
                 {projects.map((project) => (
                     <div
                         className={`row ${project.allignment}`}
-                        data-aos={project.fade}
+{/*                         data-aos={project.fade} */}
                         key={project.project_name}
                     >
                         <div className="col-sm-12 col-md-6">
