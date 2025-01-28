@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React, { memo, useState } from 'react'
 
-function Contact() {
+const Contact = memo(() => {
 
     const [msg, setMsg] = useState("Send Message");
     const [filed, setFiled] = useState(false);
@@ -36,6 +36,6 @@ function Contact() {
             </div>
         </section>
     )
-}
+});
 
 export default Contact

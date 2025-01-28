@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { memo } from 'react'
 
-function About() {
+const About = memo(() => {
 
     return (
         <section>
@@ -41,6 +41,6 @@ function About() {
             </div>
         </section>
     )
-}
+});
 
 export default About
