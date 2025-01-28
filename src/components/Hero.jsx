@@ -9,6 +9,7 @@ function Hero() {
 
     return (
         <section className="hero-section pt-5">
+            <h1 id="#" className="mt-4"></h1>
             <div className="container">
                 <div className="row align-items-center text-center">
                     <div className="col-12 col-md-6 mb-4 mt-3" data-aos="fade-right">

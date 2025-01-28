@@ -80,6 +80,18 @@ function Skills() {
             logo:"vscode.png",
             alternate:"vscode",
             text:"VS Code"
+        },
+        {
+            key: 14,
+            logo:"chatgpt.png",
+            alternate:"chatgpt",
+            text:"Chat-GPT"
+        },
+        {
+            key: 15,
+            logo:"github2.png",
+            alternate:"github",
+            text:"Git-Hub"
         }
     ];
 
