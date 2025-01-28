@@ -84,6 +84,13 @@ html, body{
   border: solid 1px rgb(73, 73, 73);
   color: #ffffff;
 }
+.project-cards {
+    transition: transform 0.3s ease-in-out, opacity         0.3s ease-in-out;
+}
+.project-cards:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
 .project-image{
   width: 200px;
 }
