@@ -51,18 +51,10 @@ function Projects() {
                             <div className="card project-cards text-center my-3">
                                 <div className="card-body">
                                     <h4 className="card-title projects-title">{project.project_name}</h4>
-                                    <p className="card-text text-secondary d-inline-block">
+                                    <p className="card-text text-secondary">
                                         {project.project_description1}
                                     </p>
-                                    <a
-                                        href={project.link}
-                                        className="text-decoration-none view-projects"
-                                        aria-label={`View ${project.project_name} project`}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        View Project
-                                    </a>
+                                    <a href={project.link} className="text-decoration-none view-projects" target="_blank">View Project</a>
                                 </div>
                             </div>
                         </div>
