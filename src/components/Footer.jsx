@@ -4,7 +4,7 @@ const Footer = memo(() => {
     return (
         <div className="footer">
             <section className="mt-3 p-3">
-                <footer className="text-white py-6">
+                <footer className="text-white py-3">
                     <div className="container mx-auto text-center">
                         <div className="mb-4">
                             <h2 className="text-lg font-semibold">Connect with Me</h2>
