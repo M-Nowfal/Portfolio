@@ -47,8 +47,8 @@ const Projects = memo(() => {
                         data-aos={project.fade}
                         key={project.project_name}
                     >
-                        <div className="col-sm-12 col-md-6">
-                            <div className="card project-cards text-center my-3">
+                        <div className="col-12 col-md-6">
+                            <div className="card project-cards text-center my-4 mx-1">
                                 <div className="card-body">
                                     <h4 className="card-title projects-title">{project.project_name}</h4>
                                     <p className="card-text text-secondary">

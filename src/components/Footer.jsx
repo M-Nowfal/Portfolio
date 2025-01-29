@@ -3,7 +3,7 @@ import React, { memo } from 'react'
 const Footer = memo(() => {
     return (
         <div className="footer">
-            <section className="m-3 p-3">
+            <section className="mt-3 p-3">
                 <footer className="text-white py-6">
                     <div className="container mx-auto text-center">
                         <div className="mb-4">
