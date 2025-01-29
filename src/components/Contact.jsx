@@ -17,19 +17,21 @@ const Contact = memo(() => {
                         <p className="text-white"><i className="fa-solid fa-phone contact-icon"></i>  +91 8610297319</p>
                     </div>
                     <div className="col-12 col-md-6 text-center" data-aos="fade-left">
-                        <input type="text" name="name" className="inputs" placeholder="Your Name" /><br />
-                        <input type="email" name="email" className="inputs" placeholder="Your E-Mail" /><br />
-                        <input type="text" name="message" className="inputs" placeholder="Your Message" /><br />
-                        <button className="send-btn mt-3"
-                            onClick={() => {
-                                setMsg("Sending...");
-                                setFiled(false);
-                                setTimeout(() => {
-                                    setFiled(true);
-                                    setMsg("Send Message")
-                                }, 2500);
-                            }}>{msg}
-                        </button>
+                        <form action="">
+                            <input type="text" name="name" className="inputs" placeholder="Your Name" required /><br />
+                            <input type="email" name="email" className="inputs" placeholder="Your E-Mail" required /><br />
+                            <input type="text" name="message" className="inputs" placeholder="Your Message" required /><br />
+                            <button className="send-btn mt-3"
+                                onClick={() => {
+                                    setMsg("Sending...");
+                                    setFiled(false);
+                                    setTimeout(() => {
+                                        setFiled(true);
+                                        setMsg("Send Message")
+                                    }, 2500);
+                                }}>{msg}
+                            </button>
+                        </form>
                         <p className="text-danger mt-3 filed">{filed ? "Failed to Send" : ""}</p>
                     </div>
                 </div>
