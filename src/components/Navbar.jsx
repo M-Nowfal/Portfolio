@@ -10,14 +10,17 @@ const Navbar = memo(() => {
         <div>
             <nav className="navbar navbar-expand-md glass-navbar position-fixed w-100">
                 <div className="container-fluid">
-                    <a className="navbar-brand fw-bold fs-1 title-name ps-2" href="#">Nowfal</a>
-                        <i className={`fs-3 ${toggler}`} onClick={()=>setToggler((toggler===xmark)?bars:xmark)}
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup"
-                            aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation">    
-                        </i>
+                    <a className="navbar-brand fw-bold fs-1 title-name ps-2" href="#"> Nowfal</a>
+                    <button 
+                        className="navbar-toggler" 
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation" 
+                    >
+                        <i className={`fs-3 ${toggler}`} onClick={()=>setToggler((toggler===xmark)?bars:xmark)}></i>
+                    </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav mx-auto titles">
                             <a className="nav-link" href="#">Home</a>
