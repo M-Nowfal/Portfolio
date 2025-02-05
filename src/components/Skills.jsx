@@ -99,12 +99,12 @@ const Skills = memo(() => {
         <section>
             <h1 id="skills" className="mt-5 pt-5"></h1>
             <h2 className="text-center m-5 skills-title fs-1" data-aos="fade-left">My Skills</h2>
-            <div className="container">
+            <div className="container skills-container">
                 <div className="row text-center">
                     {skills.map((info)=>{
                         return (
                             <div className="col-6 col-md-4 my-3" key={info.key} data-aos="fade-up">
-                                <img className="skills-icon" src={info.logo} alt={info.alternate} />
+                                <img className="skills-icon" src={info.logo} alt={info.alternate} loading="lazy"/>
                                 <h6 className="text-white">{info.text}</h6>
                             </div>
                         );

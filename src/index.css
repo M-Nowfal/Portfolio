@@ -1,5 +1,4 @@
 :root{
-  height: 100vh;
   background-image: url("https://i.gifer.com/QFNv.gif");
 }
 
@@ -76,6 +75,11 @@ html, body{
 }
 .aboutme-title, .skills-title, .projects-title, .contact-title{
   color: #ff7b00;
+}
+.project-cards, .skills-container, .aboutme {
+  transition: transform 0.3s ease-out;
+  will-change: transform;
+  contain: content;
 }
 .project-cards {
   background-color: rgba(0, 0, 0, 0.5);
