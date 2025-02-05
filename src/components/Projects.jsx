@@ -5,7 +5,7 @@ const Projects = memo(() => {
         {
             project_name: "To-Do List App",
             project_description1: "This project is a To-Do List application designed to help users manage their daily tasks efficiently. Built using HTML, CSS, and JavaScript, it allows users to add, edit, delete, and mark tasks as completed with ease. The application features a simple and intuitive user interface with a responsive design, ensuring a seamless experience across different devices. This To-Do List app is perfect for organizing tasks and boosting productivity.",
-            allignment: "row justify-content-end",
+            allignment: "row justify-content-start",
             fade: "fade-right",
             link: "https://m-nowfal.github.io/ToDo/",
         },
