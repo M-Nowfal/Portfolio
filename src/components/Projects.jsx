@@ -3,6 +3,13 @@ import React, { memo } from "react";
 const Projects = memo(() => {
     const projects = [
         {
+            project_name: "Pick & Go",
+            project_description1: "An under development website, Pick and Go is a mini e-commerce website that allows users to browse products, view product details, add items to their cart, and manage orders. It includes user authentication, a seller dashboard for product management, and seamless database connectivity using MongoDB. Built with the MERN stack, it provides a smooth and responsive shopping experience.",
+            allignment: "row justify-content-end",
+            fade: "fade-left",
+            link: "https://pick-and-go-lovat.vercel.app/",
+        },
+        {
             project_name: "To-Do List App",
             project_description1: "This project is a To-Do List application designed to help users manage their daily tasks efficiently. Built using React it allows users to add, edit, delete, and mark tasks as completed with ease. The application features a simple and intuitive user interface with a responsive design, ensuring a seamless experience across different devices. This To-Do List app is perfect for organizing tasks and boosting productivity.",
             allignment: "row justify-content-start",
@@ -42,7 +49,7 @@ const Projects = memo(() => {
     return (
         <section>
             <h1 id="projects" className="mt-5 pt-5"></h1>
-            <h1 className="text-center m-5 projects-title" data-aos="fade-left">My Projects</h1>
+            <h1 className="text-center m-5 projects-title" data-aos="fade-right">My Projects</h1>
             <div className="container">
                 {projects.map((project) => (
                     <div
