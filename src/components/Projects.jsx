@@ -51,11 +51,11 @@ const Projects = memo(() => {
             <h1 id="projects" className="mt-5 pt-5"></h1>
             <h1 className="text-center m-5 projects-title" data-aos="fade-right">My Projects</h1>
             <div className="container">
-                {projects.map((project) => (
+                {projects.map((project, index) => (
                     <div
                         className={`row ${project.allignment}`}
                         data-aos={project.fade}
-                        key={project.project_name}
+                        key={index}
                     >
                         <div className="col-12 col-md-6">
                             <div className="card project-cards text-center my-4 mx-1">
@@ -64,7 +64,7 @@ const Projects = memo(() => {
                                     <p className="card-text text-secondary">
                                         {project.project_description1}
                                     </p>
-                                    <a href={project.link} className="text-decoration-none view-projects" target="_blank">View Project</a>
+                                    {index !== 0 && <a href={project.link} className="text-decoration-none view-projects" target="_blank">View Project</a>}
                                 </div>
                             </div>
                         </div>
