@@ -64,7 +64,7 @@ const Projects = memo(() => {
                                     <p className="card-text text-secondary">
                                         {project.project_description1}
                                     </p>
-                                    {index !== 0 && <a href={project.link} className="text-decoration-none view-projects" target="_blank">View Project</a>}
+                                    <a href={project.link} className="text-decoration-none view-projects" target="_blank">View Project</a>
                                 </div>
                             </div>
                         </div>
