@@ -4,17 +4,18 @@ const Projects = memo(() => {
     const projects = [
         {
             project_name: "Pick & Go",
-            project_description1: "An under development website, Pick and Go is a mini e-commerce website that allows users to browse products, view product details, add items to their cart, and manage orders. It includes user authentication, a seller dashboard for product management, and seamless database connectivity using MongoDB. Built with the MERN stack, it provides a smooth and responsive shopping experience.",
+            project_description1: "Pick and Go is a mini e-commerce website that allows users to browse products, view product details, add items to their cart, and manage orders. It includes user authentication, a seller dashboard for product management, and seamless database connectivity using MongoDB. Built with the MERN stack, it provides a smooth and responsive shopping experience.",
             allignment: "row justify-content-end",
             fade: "fade-left",
             link: "https://pick-and-go-lovat.vercel.app/",
         },
+
         {
-            project_name: "To-Do List App",
+            project_name: "To-Do App",
             project_description1: "This project is a To-Do List application designed to help users manage their daily tasks efficiently. Built using React it allows users to add, edit, delete, and mark tasks as completed with ease. The application features a simple and intuitive user interface with a responsive design, ensuring a seamless experience across different devices. This To-Do List app is perfect for organizing tasks and boosting productivity.",
             allignment: "row justify-content-start",
             fade: "fade-right",
-            link: "https://m-nowfal.github.io/ToDo/",
+            link: "https://to-do-app-kappa-pearl.vercel.app/",
         },
         {
             project_name: "Calculator",
