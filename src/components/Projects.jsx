@@ -3,6 +3,12 @@ import React, { memo } from "react";
 const Projects = memo(() => {
     const projects = [
         {
+            project_name: "Byte Cart E-Commerce platform",
+            project_description1: "ByteCart is a full-stack e-commerce web application built with Next.js, offering a fast, responsive, and seamless shopping experience. The platform includes both user and seller functionalities such as authentication, product management, shopping cart, and order tracking. With server-side rendering for better performance and SEO, ByteCart is optimized for real-world usage and scalability.",
+            fade: "fade-left",
+            link: "https://byte-cart.vercel.app/",
+        },
+        {
             project_name: "Water Bill Record Management",
             project_description1: "Housing Unit Bill Record is a web application designed to manage and track water bill payments for apartment units. It supports multiple buildings and houses, allowing users to record and view payments month-wise for the year 2025. This tool helps streamline bill management and ensures organized, date-wise tracking for each unit.",
             allignment: "row justify-content-start",
@@ -56,7 +62,7 @@ const Projects = memo(() => {
     return (
         <section>
             <h1 id="projects" className="mt-5 pt-5"></h1>
-            <h1 className="text-center m-5 projects-title" data-aos="fade-left">My Projects</h1>
+            <h1 className="text-center m-5 projects-title" data-aos="fade-right">My Projects</h1>
             <div className="container">
                 {projects.map((project, index) => (
                     <div
