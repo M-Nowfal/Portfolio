@@ -5,6 +5,7 @@ const Projects = memo(() => {
         {
             project_name: "Byte Cart E-Commerce platform",
             project_description1: "ByteCart is a full-stack e-commerce web application built with Next.js, offering a fast, responsive, and seamless shopping experience. The platform includes both user and seller functionalities such as authentication, product management, shopping cart, and order tracking. With server-side rendering for better performance and SEO, ByteCart is optimized for real-world usage and scalability.",
+            allignment: "row justify-content-end",
             fade: "fade-left",
             link: "https://byte-cart.vercel.app/",
         },
